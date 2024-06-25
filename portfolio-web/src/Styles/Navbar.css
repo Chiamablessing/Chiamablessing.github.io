@@ -1,0 +1,30 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav li {
+    display: inline;
+    margin-right: 30px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  nav h1 {
+    display: inline;
+    margin-right: 30px;
+    color: crimson;
+    font-size: 20px;
+  }
+
+  nav img {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
