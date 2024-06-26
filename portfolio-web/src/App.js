@@ -14,11 +14,11 @@ function App() {
       <Navbar/>
 
       <div className='home-title'>Get your next</div>
-      <div className='weekend'>
-      <div> <p className='home' style={{
+      <div className='home-pg '>
+      <div> <p className='slide' style={{
           position: "absolute", alignItems: "center", fontSize: "60px", fontWeight: "600", width: "100%",
-          left: "0px", color: "rgb(0,118,211)",  margin: "0px", transform: "translateX(0px)",
-          zIndex: "0", //opacity: "0",
+          left: "0px", margin: "0px", transform: "translateX(0px)",
+          zIndex: "0", color: "rgb(194,139,0)", //opacity: "0",
         }} >Weekendnight dinner idea
         </p> </div>
 
@@ -44,6 +44,7 @@ function App() {
         </div>
 
       <ImageCard font={1} w={10} h={10} overlay={1}/>
+      <button/>
     </div>
 
 

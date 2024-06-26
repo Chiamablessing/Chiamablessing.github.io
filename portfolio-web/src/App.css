@@ -5,27 +5,13 @@
   font-weight: 600;
 }
 
-.weekend home p {
-font-size: 60px;
-font-weight: 600;
-position: absolute;
-text-align: center;
-width: 100%;
-left: 0px;
-color: rgb(0,118,211);
-margin: 0px;
-transform: translateX(0px);
-opacity: 0;
-z-index: 0;
-}
-
-.App-logo {
+.home-pg {
   height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .home-pg  {
     animation: App-logo-spin infinite 20s linear;
   }
 }
@@ -41,15 +27,38 @@ z-index: 0;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.slide {
+  opacity: 0;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 1s, transform 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-weight: 600;
+  z-index: 0;
 }
-
-@keyframes App-logo-spin {
+@keyframes slideIn {
   from {
-    transform: rotate(0deg);
+    transform: translateX(100%);
+    opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
   }
 }
