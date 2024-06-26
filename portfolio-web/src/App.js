@@ -22,20 +22,20 @@ function App() {
         }} >Weekendnight dinner idea
         </p> </div>
 
- <div className='weekend'> <p style={{
+ <div className='slide'> <p style={{
           position: "absolute", alignItems: "center", fontSize: "60px", fontWeight: "600", width: "100%",
           left: "0px", color: "rgb(0,118,211)",  margin: "0px", transform: "translateX(0px)",
           opacity: "0", zIndex: "0",
         }} >home decor idea
         </p> </div>
- <div className='weekend'> <p style={{
+ <div className='slide'> <p style={{
           position: "absolute", alignItems: "center", fontSize: "60px", fontWeight: "600", width: "100%",
           left: "0px", color: "rgb(0,118,211)",  margin: "0px", transform: "translateX(-40px)",
           zIndex: "0", opacity: "0"
         }} >new look outfit
         </p> </div>
 
- <div className='weekend'> <p style={{
+ <div className='slide'> <p style={{
           position: "absolute", alignItems: "center", fontSize: "60px", fontWeight: "600", width: "100%",
           left: "0px", color: "rgb(64,122,87)",  margin: "0px", transform: "translateX(0px)",
           opacity: "0", zIndex: "0",
