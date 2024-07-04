@@ -7,7 +7,7 @@ import React from "react";
  *@text: button text content
  *@font: size of button text
  */
-const Button = ({ color, action, w, h, backgroundColor, text, font, radius }) => {
+const Button = ({ color, action, w, h, backgroundColor, text, font, radius, padding, box,}) => {
   return (
     <button
     className="Signup"
@@ -16,6 +16,7 @@ const Button = ({ color, action, w, h, backgroundColor, text, font, radius }) =>
         fontWeight: "600",
         fontSize: `${font || 1}rem`,
         border: "none",
+        boxSizing:"border-box",
         backgroundColor: backgroundColor|| "red",
         width: w ? `${w}rem` : "fit-content",
         padding: `${h || 0.1}rem ${font || 1}rem `,

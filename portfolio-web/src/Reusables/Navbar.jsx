@@ -7,6 +7,7 @@ const user = {
   name: "Pinterest",
   imageurl: Logo,
   imageSize: 40,
+
 };
 const Navbar = () => {
   return (
@@ -16,9 +17,22 @@ const Navbar = () => {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
+          justifySelf: "center",
+          height: "30vh",
+          width: "100%",
+          flexDirection: "row",
+          marginTop: "0px",
+          textDecorationStyle: "solid",
+          paddingBottom: "16px",
+          paddingTop: "0px",
+          paddingLeft: "16px",
+          paddingRight: "16px",
+          boxSizing: "border-box",
+
+
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", font: "16px" }}>
+        <div  className="hidden lg:flex" style={{ alignItems: "center", font: "16px" }}>
           <div style={{ display: "flex", alignItems: "center", font: "16px"}}>
             <div>
               <img
@@ -33,7 +47,7 @@ const Navbar = () => {
               />
             </div>
 
-            <div style={{ padding: "0 12px" }}>
+            <div style={{ padding: "0 16px" }}>
               <h1>Pinterest</h1>
             </div>
           </div>
@@ -45,11 +59,11 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <div style={{ display: "flex", alignItems: "center" }}>
+        <div className="hidden lg:flex" style={{ alignItems: "center" }}>
           <ul>
             {rightNavItems.map((item, index) => (
               <li key={index}>
-                <a href={item.link}>{item.name}</a>
+                <a target='_blank' href={item.link}>{item.name}</a>
               </li>
             ))}
           </ul>
