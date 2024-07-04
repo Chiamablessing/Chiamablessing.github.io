@@ -1,5 +1,6 @@
 import "./App.css";
 import Button from "../src/Reusables/Button";
+
 // import ImageCard from "../src/Reusables/ImageCard";
 // import Navbar from "../src/Reusables/Navbar";
 // import bg from "./images/center-2d76a691.png";
@@ -33,7 +34,9 @@ import Last from "./components/Last";
 //   );
 // }
 
-// export default App;
+// export default App
+
+
 const user = {
   name: 'Pinterest',
   imageurl: 'https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png',
@@ -246,9 +249,11 @@ function App() {
       <Hero />
       <SearchIdea />
       <SaveIdea />
+
       <ThirdContainer/>
       <FourthContainer/>
       <Last/>
+
     </div>
   );
 }
