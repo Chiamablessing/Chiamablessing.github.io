@@ -10,7 +10,7 @@ const user = {
 };
 const Navbar = () => {
   return (
-    <>
+    <div style={{ position: "fixed", width: "100%" }}>
       <nav
         style={{
           display: "flex",
@@ -19,7 +19,7 @@ const Navbar = () => {
         }}
       >
         <div style={{ display: "flex", alignItems: "center", font: "16px" }}>
-          <div style={{ display: "flex", alignItems: "center", font: "16px"}}>
+          <div style={{ display: "flex", alignItems: "center", font: "16px" }}>
             <div>
               <img
                 className="logo"
@@ -53,15 +53,15 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <div style={{padding: "8px 12px", font: "16px"}}>
-            <Button text={"Log in"} font={1} w={5} color={"#FFFFFF"}/>
+          <div style={{ padding: "8px 12px", font: "16px" }}>
+            <Button text={"Log in"} font={1} w={5} color={"#FFFFFF"} />
           </div>
           <div>
             <Button text={"Sign up"} color={"#111111"} font={1} w={6} backgroundColor={"#E9E9E9"} />
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 
