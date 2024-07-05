@@ -1,41 +1,11 @@
 import "./App.css";
 import Button from "../src/Reusables/Button";
-
-// import ImageCard from "../src/Reusables/ImageCard";
-// import Navbar from "../src/Reusables/Navbar";
-// import bg from "./images/center-2d76a691.png";
-// import bc from "./images/bedroom.png";
-// import HomeHero from './components/HomeHero';
-// import SecondContainer from "./components/SecondContainer";
-// import FirstContainer from "./components/FirstContainer";
 import ImageCard, { ImageCard2 } from "../src/Reusables/ImageCard";
 import Navbar from "../src/Reusables/Navbar";
 import cardBg from "../src/images/center-2d76a691.png";
 import ThirdContainer from "./components/ThirdContainer";
 import FourthContainer from "./components/FourthContainer";
 import Last from "./components/Last";
-
-// function App() {
-//   return (
-//     <div>
-//       <Navbar />
-
-//       <HomeHero />
-
-//       <FirstContainer/>
-
-//       <SecondContainer />
-
-//       <ThirdContainer/>
-
-//       <FourthContainer/>
-//       <Last/>
-//     </div>
-//   );
-// }
-
-// export default App
-
 
 const user = {
   name: 'Pinterest',
