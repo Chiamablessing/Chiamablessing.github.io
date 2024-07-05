@@ -18,7 +18,7 @@ const Navbar = () => {
           alignItems: "center",
           justifyContent: "space-between",
           justifySelf: "center",
-          height: "30vh",
+          height: "5em",
           width: "100%",
           flexDirection: "row",
           marginTop: "0px",
@@ -32,7 +32,7 @@ const Navbar = () => {
 
         }}
       >
-        <div  className="hidden lg:flex" style={{ alignItems: "center", font: "16px" }}>
+        <div  className="flex" style={{ alignItems: "center", font: "16px" }}>
           <div style={{ display: "flex", alignItems: "center", font: "16px"}}>
             <div>
               <img

@@ -39,23 +39,15 @@ const HeroImageGrider = [
   { "size": "0rem" },
 ]
 
-function saveIdeasChildImages() {
-  return(
-    <>
-    <p>hello</p>
-    </>
-  )
-}
-
 export function Hero() {
   return (
 
-    <div className='hero' style={{
+    <div  style={{
       display: 'flex',
       flexDirection: "column",
       justifyContent: "center",
       alignItems: "center",
-      height: "100vh",
+      height: "120vh",
       paddingTop: "12rem",
     }}>
 
