@@ -84,7 +84,7 @@ z-index: 0;
 .save-idea {
   text-align: center;
   display: grid;
-  margin-top: -16em;
+  margin-top: -8em;
   min-height: 100vh;
   background-color: #FFFD92;
   text-align: center;
@@ -92,6 +92,10 @@ z-index: 0;
   min-height: 100vh;
 }
 
+.section-text-grid
+{
+margin-top: 20px;
+}
 .save-idea>.section-title {
   font-weight: 500;
   font-size: 20px;

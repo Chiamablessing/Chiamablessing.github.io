@@ -1,10 +1,20 @@
-# Getting Started with Create React App
+# Getting Started with Create Pinterest web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project aim to build a front-end development like an original app of (pinterest.com) by implementing the core features, user experience and responsiveness(which the original app lack).
 
-## Available Scripts
+Pinterest functions as a virtual pinboard where users can "pin" images and videos to their boards. These pins can be anything from fashion ideas, home decor, recipes, travel destinations, DIY projects, and more. Users can create and organize their boards by themes or interests, making it easy to find and refer back to their saved content.
 
-In the project directory, you can run:
+Develop by: Chiamaka Emeti
+
+![alt text](src/images/web.png) [http://chiamablessing.github.io]
+
+![alt text](src/images/images.png)[twitter](https://twitter.com/chiamaka_emeti)
+
+## Installation
+
+To set up, follow the following steps:
+
+### `npm install`
 
 ### `npm start`
 
@@ -16,8 +26,7 @@ You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
 ### `npm run build`
 
@@ -39,32 +48,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Hero Section: This is designed to immediately capture the user's attention. it contains the key element Navbar(Logo, Watch, Explore,About, Business, Blog, Signup, Login) This is strategically placed to engage users immediately upon landing on the page, conveying the essence of what the site offers or represents.
