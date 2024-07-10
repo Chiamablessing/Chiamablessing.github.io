@@ -6,9 +6,13 @@ Pinterest functions as a virtual pinboard where users can "pin" images and video
 
 Develop by: Chiamaka Emeti
 
-![alt text](src/images/web.png) [http://chiamablessing.github.io]
+<img src="web.png" alt="web" style="width:20px;"/>[http://chiamablessing.github.io]
 
-![alt text](src/images/images.png)[twitter](https://twitter.com/chiamaka_emeti)
+<img src="images.png" alt="images" style="width:20px;"/>[twitter](https://twitter.com/chiamaka_emeti)
+
+
+## `git clone https://github.com/Chiamablessing/portfolio.git`
+
 
 ## Installation
 
